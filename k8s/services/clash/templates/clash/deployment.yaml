@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: clash
-          image: docker.io/dreamacro/clash:latest
+          image: docker.io/metacubex/mihomo:latest
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: {{ socks5_port }}
